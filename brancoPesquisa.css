@@ -1,0 +1,26 @@
+:root{
+    --fundo-cor: white;
+    --A-H-letra-cor: #4285f4;
+    --R-letra-cor: #ea4335;
+    --T-letra-cor: #fbbc05;
+    --U-letra-cor: #34a853;
+    --pesquisa-letra-cor: black;
+    --pesquisa-barra-cor: white;
+    --pesquisa-barra-borda-cor: #e4e5e8;
+    --pesquisa-barra-sombraborda-cor: #f1f1f3;
+    --fonte-segundoElem-cor: #70757a;
+    --aba-todas-cor: #1f1f1f;
+    --hover-destaquecor-cor: #494949;
+    --fonte-resultadoAI-cor: #001d35;
+    --painel-fundo-cor: #e5edff;
+    --fonte-painel-cor: #001d35;
+    --fonte-descricaoPesq-cor: #474747;
+    --divisoriaPrincipal-cor: #dadce0;
+    --divisorias-cor: #a3c9ff;
+    --fonte-titulo-resultadopesq-cor: #3900A1;
+    --fonte-subtitulo-resultadopesq-cor: #202124;
+    --fonte-referencia-resultadopesq-cor: #4d5156;
+    --fonte-descricao-resultadopesq-cor: #474747;
+    --footer-fundo-cor: #f2f2f2;
+    --footer-letra-cor: #70757a;
+}

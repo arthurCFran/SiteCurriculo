@@ -1,0 +1,57 @@
+#primeiroElem {
+    display: none
+}
+
+body {
+    margin-left: 3px;
+}
+
+#primeiroElemMobile,
+#segundoElem,
+#resultadoPesq,
+footer {
+    display: flex;
+}
+
+#resultadoPesq{
+    flex-direction: column;
+    padding-left: 15px;
+    align-items: flex-start
+}
+
+#primeiroElemMobile {
+    flex-direction: column;
+    align-items: center
+    
+}
+#primeiroElemMobile div {
+    display: flex;
+    justify-content: space-around;
+
+    width: 100%;
+}
+
+.icone {
+    margin-right: 0px;
+}
+
+.barraDePesquisa {
+    max-width: 600px;
+
+}
+
+#segundoElem {
+    justify-content: space-around;
+}
+
+#divisoriaPrincipal {
+    padding-bottom: 20px;
+}
+
+footer {
+    align-items: center;
+}
+
+#divisoriaFooter {
+    display: none;
+}

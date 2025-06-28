@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="estiloHome.css" />
+    <link rel="stylesheet" media="screen and (max-width: 480px)" href="estiloHomeMobile.css" />
+
+    <link id="temaHome" rel="stylesheet" href="brancoHome.css" />
+    <script src="trocaCor.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <img src="img/Arthur.jpg" alt="Imagem Perfil de Arthur" onclick="trocarTema()" class="icone" />
+    </header>
+    <div id="divLogo">
+        <h1 class="logo">
+            <span>A<span>r<span>t<span>h<span>u<span>r</span></span></span></span></span></span>
+        </h1>
+    </div>
+    <div id="barraEbotoes">
+        <form class="barraDePesquisa">
+            <p>Bem Vindo. Por favor, selecione uma das opções abaixo.</p>
+        </form>
+        <section class="botoes">
+            <a href="contato.html" class="botao">Contatos</a>
+            <a href="curriculo.html" class="botao">Curriculo</a>
+        </section>
+        <section id="tendencias"> <!-- Exibido apenas no Mobile -->
+            <h2>Pesquisas em alta</h2>
+            <a href="contato.html" class="pesquisas">Contatos</a>
+            <a href="curriculo.html" class="pesquisas">Curriculo</a>
+        </section>
+    </div>
+    <div id="preencher"><!--Apenas uma div para preencher espaço--></div>
+    <footer>
+        <span>Brasil</span>
+        <div id="divisoriaFooter"></div>
+        <p>(47) 997554273 - arthurfrancisco200401@gmail.com</p>
+    </footer>
+</body>
+
+</html>

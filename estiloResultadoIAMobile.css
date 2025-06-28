@@ -1,0 +1,16 @@
+#resultadoIa {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    align-items: flex-start
+}
+
+#divisoriaPrincipal {
+    padding: 0;
+}
+
+#painel {
+    width: 100%;
+    background: none;
+    padding: 0;
+}

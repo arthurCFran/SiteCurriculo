@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="estiloPesquisa.css" />
+    <link rel="stylesheet" href="estiloResultadoIA.css" />
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="estiloPesquisaMobile.css" />
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="estiloResultadoIAMobile.css" />
+
+    <link id="temaPesquisa" rel="stylesheet" href="brancoPesquisa.css" />
+    <script src="trocaCor.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curriculo</title>
+</head>
+
+<body>
+    <header>
+        <div id="primeiroElem">
+            <span class="logo">
+                <a href="index.htm">
+                    <span>A<span>r<span>t<span>h<span>u<span>r</span></span></span></span></span></span>
+                </a>
+            </span>
+            <!-- sequencia de <span> para personaliar cada letra do logo "Arthur" -->
+            <div class="barraEIcone">
+                <form class="barraDePesquisa">
+                    <p>Curriculo de Arthur Da Costa Francisco</p>
+                </form>
+                <img src="img/Arthur.jpg" alt="Imagem Perfil de Arthur" onclick="trocarTema()" class="icone" />
+            </div>
+        </div>
+        <div id="primeiroElemMobile">
+            <div>
+                <img src="img/Arthur.jpg" alt="Imagem Perfil de Arthur" onclick="trocarTema()" class="icone" />
+                <span class="logo">
+                    <a href="index.htm">
+                        <span>A<span>r<span>t<span>h<span>u<span>r</span></span></span></span></span></span>
+                    </a>
+                </span>
+                <!-- sequencia de <span> para personaliar cada letra do logo "Arthur" -->
+                <img src="img/Arthur.jpg" alt="Imagem Perfil de Arthur" onclick="trocarTema()" class="icone" />
+            </div>
+            <form class="barraDePesquisa">
+                <p>Curriculo de Arthur Da Costa Francisco</p>
+            </form>
+        </div>
+
+        <div id="segundoElem">
+            <p>Todas</p>
+
+            <div class="ancoras">
+                <a href="index.htm">Home</a>
+                <a href="contato.html">Contatos</a>
+                <a href="curriculo.html">Curriculo</a>
+            </div>
+        </div>
+    </header>
+
+    <div id="divisoriaPrincipal"></div>
+    <section id="resultadoIa">
+        <div id="resumo">
+            <p> <img src="img/gemini-icon.png" alt="Logo Gemini" /> Visão geral criada por IA</p>
+            <em>
+                Desenvolvedor Back-End com experiência em soluções automatizadas, SQL
+                e otimização de sistemas. Com perfil analítico, foco em performance e
+                resolução problemas técnicos com criatividade. Buscando crescer em
+                ambientes inovadores, contribuindo com minha bagagem em lógica e
+                arquitetura de software.
+            </em>
+            <h3>Habilidades e Competências</h3>
+            <ul>
+                <li>Banco de dados.</li>
+                <li>Automatização de processos.</li>
+                <li>Lógica de Programação.</li>
+                <li>Git/GitHub.</li>
+                <li>Desenvolvimento de Back-end.</li>
+            </ul>
+            <h3>Idiomas</h3>
+            <ul>
+                <li>Inglês: Avançado</li>
+            </ul>
+            <br>
+        </div>
+        <div id="painel">
+            <h4>EXPERIÊNCIA PROFICIONAL</h4>
+            <p><b>Analista de sistemas, fev. de 2022 - jun. de 2024</b></p>
+            <p><b>Acearia Frederico Missner</b> - Luiz Alves, Santa Catarina, Brasil</p>
+            <p>Nesta experiência trabalhei com a criação de soluções inteligentes e ferramentas automatizadas,
+                explorando o uso de SQL e linguagens externas do sistema, na busca da economia de processamento.</p>
+            <div class="divisorias"></div>
+            <h4>FORMAÇÃO ACADEMIACA</h4>
+            <p><b>Tecnologo:</b> Análise e Desenvolvimento de Sistemas</p>
+            <p><b>Universidade do Vale do Itajaí | Univali</b> - SC</p>
+            <p><b>Curso:</b> Engenheiro Front-end<br><b>EBAC - Escola Britânica de Artes Criativas e Tecnologia</b></p>
+            <div class="divisorias"></div>
+        </div>
+        <div id="divisoriaResultadoIa"></div>
+    </section>
+
+    <section id="resultadoPesq">
+        <div class="resultado">
+            <section id="subTitulo">
+                <img src="img/linkedin.png" alt="Logo LinkedIn" />
+                <a href="www.linkedin.com/in/arthurdacostafrancisco" target="_blank">
+                    LinkedIn · Arthur Francisco
+                    <p>Mais de 30 seguidores</p>
+                </a>
+            </section>
+            <a href="www.linkedin.com/in/arthurdacostafrancisco" target="_blank">
+                Arthur Francisco - Universidade do Vale do Itajaí | Univali
+            </a>
+            <p>
+                Desenvolvedor Back-End · Acearia Frederico Missner · Universidade do Vale do Itajaí | Univali · Ilhota · 32 conexões no LinkedIn. Veja o perfil de Arthur ...
+            </p>
+        </div>
+    </section>
+
+    <div id="preencher"><!--Apenas uma div para preencher espaço--></div>
+
+    <footer>
+        <span>Brasil &ensp; <b>Ilhota - SC</b></span>
+        <div id="divisoriaFooter"></div>
+        <p>(47) 997554273 - arthurfrancisco200401@gmail.com</p>
+    </footer>
+</body>
+
+</html>

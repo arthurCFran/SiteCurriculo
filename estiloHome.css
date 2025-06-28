@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+body {
+    background-color: var(--home-fundo-cor);
+    font-family: "Arthur sans", Arial, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+#tendencias{
+    display: none;
+}
+
+div {
+    display: flex;
+    flex-grow: 1;
+}
+a {
+    text-decoration: none;
+}
+
+#divLogo {
+    align-items: flex-end;
+}
+#barraEbotoes {
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    font-size: 5em;
+
+    font-family: Product Sans, sans-serif;
+
+    span {
+        color: var(--A-H-letra-cor);
+
+        span {
+            color: var(--R-letra-cor);
+
+            span {
+                color: var(--T-letra-cor);
+
+                span {
+                    color: var(--A-H-letra-cor);
+
+                    span {
+                        color: var(--U-letra-cor);
+
+                        span {
+                            color: var(--R-letra-cor);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.barraDePesquisa {
+    background-color: var(--pesquisa-barra-cor);
+    border: 2px solid var(--pesquisa-barra-borda-cor);
+
+    border-radius: 30px;
+
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-left: 5%;
+    
+    max-height: 55px;
+    height: calc(100% + 10px);
+    min-height: fit-content;
+    max-width: 648px;
+    width: 75vw;
+    min-width: fit-content;
+    box-sizing: border-box;
+
+    box-shadow: 2px 4px 4px var(--pesquisa-barra-sombraborda-cor);
+}
+
+.barraDePesquisa p {
+
+    color: var(--pesquisa-letra-cor);
+
+    font-size: 1em;
+
+    max-width: 90%;
+}
+
+.botoes{
+    padding-top: 18px;
+    height: 70px;
+}
+
+.botao {
+    display: inline-block;
+
+    background-color: var(--home-botao-cor);
+
+    border-radius: 4px;
+    border: 1px solid var(--home-botao-cor);
+
+    font-size: 1em;
+    color: var(--home-botao-fonte-cor);
+
+    margin: 11px 4px;
+    padding: 0 16px;
+
+    height: 36px;
+    min-width: 54px;
+    width: 100px;
+
+    text-align: center;
+    align-content: center;
+}
+
+.botao:hover {
+    border: 1px solid var(--home-hover-destaquecor-cor);
+}
+
+.icone {
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+
+    margin-right: 50px;
+    box-shadow: 2px 2px 8px var(--pesquisa-barra-sombraborda-cor);
+}
+.icone:hover{
+    transform: scale(1.1);
+}
+footer {
+    display: flex;
+    align-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    line-height: 40px;
+
+    width: 100%;
+    height: 94px;
+
+    background-color: var(--footer-fundo-cor);
+    color: var(--home-footer-letra-cor);
+
+    font-size: 1em;
+
+}
+
+#divisoriaFooter{
+    padding-bottom: 0;
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid var(--divisoriaPrincipal-cor);
+}
+
+footer span, footer p{
+    margin-left: 20px;
+
+}

@@ -1,0 +1,29 @@
+:root{
+    --home-fundo-cor: #202124;
+    --A-H-letra-cor: white;
+    --R-letra-cor: white;
+    --T-letra-cor: white;
+    --U-letra-cor: white;
+    --pesquisa-letra-cor: #eef0ff;
+    --pesquisa-barra-cor: #4d5156;
+    --pesquisa-barra-borda-cor: #4d5156;
+    --pesquisa-barra-sombraborda-cor: #1f1f1f;
+    --fonte-segundoElem-cor: #6d7276;
+    --aba-todas-cor: white;
+    --hover-destaquecor-cor: #c7c7c7;
+    --fonte-resultadoAI-cor: #eef0ff;
+    --painel-fundo-cor: #2c303d;
+    --funte-painel-cor: #eef0ff;
+    --fonte-descricaoPesq-cor: #474747;
+    --divisoriaPrincipal-cor: #2d2f31;
+    --divisorias-cor: #424654;
+    --fonte-titulo-resultadopesq-cor: #9fd5ff;
+    --fonte-subtitulo-resultadopesq-cor: #DADCE0;
+    --fonte-referencia-resultadopesq-cor: #bdc1c6;
+    --fonte-descricao-resultadopesq-cor: #bfbfbf;
+    --footer-fundo-cor: #171717;
+    --home-footer-letra-cor: #e8e8e8;
+    --home-botao-cor: #303134;
+    --home-botao-fonte-cor: #e8eaed;
+    --home-hover-destaquecor-cor: #c7c7c7;
+}
